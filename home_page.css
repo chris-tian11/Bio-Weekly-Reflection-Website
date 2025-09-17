@@ -1,0 +1,26 @@
+* {
+    background-color: #F0F0F0;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.links {
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: center;
+}
+
+.heading {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border: 2px solid black;
+}
